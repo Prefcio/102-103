@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<script>
+  let a = prompt('Podaj pierwszą liczbę');
+  let operator = prompt('Podaj operator działania +,-,*,/,%');
+  let b = prompt('Podaj drugą liczbę');
+  switch (operator) {
+    case "+":
+      alert(a + b);
+      break;
+    case "-":
+      alert(a - b);
+      break;
+    case "*":
+      alert(a * b);
+      break;
+    case "/":
+      if (b != 0) {
+        alert(a * b);
+        break;
+      }
+      else {
+        alert('NIE DZIEL PRZEZ 0!');
+        break;
+      }
+    case "%":
+      alert(a % b);
+      break;
+  }
+
+
+
+</script>
